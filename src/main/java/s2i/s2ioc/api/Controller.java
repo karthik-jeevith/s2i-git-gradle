@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
   private Logger logger = LoggerFactory.getLogger(getClass());
 
-  private String applicationName = "oc-s2i-spring-boot-simple-rest-service";
+  private String applicationName = "oc-s2i-spring-boot-simple-rest-service-gradle";
 
   @GetMapping(value = "/")
   public ResponseEntity<String> noPath() {
